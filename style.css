@@ -38,7 +38,9 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
+.more-contrast {
+    filter: contrast(3);
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -1025,6 +1027,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    #bloc-4-portfolio img {
+        margin: auto;
     }
 }
 
