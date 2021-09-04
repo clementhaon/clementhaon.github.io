@@ -11,6 +11,17 @@
 	<!--index google-->
 	<meta name="robots" content="index, follow">
 	<meta name="googlebot" content="index,follow">
+	<!--meta reseaux-->
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:title" content="La chouette agence de webdesign"/>
+	<meta name="twitter:description" content="Entreprise de webdesign basée à Lyon"/>
+
+	<meta property="og:title" content="La chouette agence de webdesign" />
+	<meta property="og:description" content="Entreprise de webdesign basée à Lyon" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://clementhaon.github.io/clementhaon_4_06082021/">
+	<meta property="og:image" content="https://clementhaon.github.io/clementhaon_4_06082021/img/logo.png" />
+
     <!--modif link .min-->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -94,7 +105,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" method="POST" action="includes/form_1.php">
 					<div class="form-group">
 						<label>
 							Nom
