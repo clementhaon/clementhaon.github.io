@@ -40,6 +40,7 @@ a:hover {
 }
 .more-contrast {
     filter: contrast(3);
+    font-weight: bold;
 }
 .bloc .container {
     padding-left: 0;
