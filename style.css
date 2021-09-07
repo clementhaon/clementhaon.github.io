@@ -42,6 +42,9 @@ a:hover {
     filter: contrast(3);
     font-weight: bold;
 }
+.changecolorblack {
+  color: black;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
