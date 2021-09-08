@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap: https://github.com/clementhaon/clementhaon_4_06082021/sitemap.txt/
