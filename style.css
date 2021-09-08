@@ -14,7 +14,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline!important;
     cursor: pointer;
 }
 
@@ -786,9 +786,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
+    color: #FFFFFF!important;
+}
+.btn-atomic-tangerine-contrast {
+    background: #F3976C;
     color: #FFC645!important;
 }
-
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
