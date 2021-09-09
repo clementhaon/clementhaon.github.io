@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
 
 sitemap: https://github.com/clementhaon/clementhaon_4_06082021/sitemap.txt/

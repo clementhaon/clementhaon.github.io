@@ -45,6 +45,9 @@ a:hover {
 .changecolorblack {
   color: black;
 }
+.background-black{
+    background-color: black;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
